@@ -79,3 +79,23 @@ h2 {
   outline: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+.buttons {
+  background: #f8f8f8;
+  padding: 10px;
+}
+
+ button {
+  border: 0;
+  background: #f0f0f0;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 200;
+  cursor: pointer;
+  border-radius: 5px;
+ }
+
+button:hover {
+  background: #e0e0e0;
+  transition: 0.3s ease;
+}
